@@ -1,0 +1,58 @@
+.slide-right {
+    /* for chrome and safari*/
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: slideright;
+    /*for firefox*/
+    -moz-animation-duration: 1s;
+    -moz-animation-name: slideright;
+    /* for opera*/
+    -o-animation-duration: 1s;
+    -o-animation-name: slideright;
+    /* Standard syntax*/
+    animation-duration: 1s;
+    animation-name: slideright;
+}
+
+@-webkit-keyframes slideright {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@-moz-keyframes slideright {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@-o-keyframes slideright {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@keyframes slideright {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
